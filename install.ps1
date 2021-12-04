@@ -8,7 +8,7 @@ Set-TimeZone -Id 'Eastern Standard Time'
 
 wsl --upgrade
 
-choco isntall jetbrainstoolbox -y
+choco install jetbrainstoolbox -y
 
 choco install docker-desktop -y
 
