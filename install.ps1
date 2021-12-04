@@ -5,3 +5,11 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 choco install visualstudiocode jetbrainstoolbox docker-desktop visualstudio2019community -y
 
 Set-TimeZone -Id 'Eastern Standard Time'
+
+choco install visualstudio2019-workload-datascience -y
+choco install visualstudio2019-workload-azure -y
+choco install visualstudio2019-workload-manageddesktop -y
+choco install visualstudio2019-workload-netcoretools -y
+choco install visualstudio2019-workload-netweb -y
+choco install visualstudio2019-workload-node -y
+choco install visualstudio2019-workload-python -y
