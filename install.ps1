@@ -19,3 +19,5 @@ choco install visualstudio2019-workload-python -y
 choco install wsl -y
 
 choco install docker-desktop -y
+
+restart-computer
